@@ -1,0 +1,12 @@
+.HoverStyle{
+    padding: 20px;
+    /* background-color : isHover? 'blue':'green'; */
+    cursor: pointer;
+    background-color: brown;
+}
+.HoverStyle:hover{
+    padding: 20px;
+    /* background-color : isHover? 'blue':'green'; */
+    cursor: pointer;
+    background-color: aqua;
+}

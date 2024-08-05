@@ -1,0 +1,16 @@
+$mainbg: #08316D;
+$padbg: #059c16;
+
+
+.HoverStyle {
+    padding: 20px;
+    /* background-color : isHover? 'blue':'green'; */
+    cursor: pointer;
+    background-color: $mainbg;
+}
+
+.HoverStyle:hover {
+    padding: 20px;
+    cursor: pointer;
+    background-color: $padbg;
+}
