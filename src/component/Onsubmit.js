@@ -11,6 +11,8 @@ const Onsubmit = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log('Submitted Form Data:', { username, password });
+        setUsername('')
+        setPassword('')
     };
     return (
         <div>
